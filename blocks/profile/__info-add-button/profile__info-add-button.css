@@ -4,7 +4,7 @@
     height: 50px;
     appearance: none;
     background: none;
-    border: 2px solid #ffffff; 
+    border: 2px solid #ffffff;
     box-sizing: border-box;
     border-radius: 2px;
     background-image: url(../../../images/Add_Button.svg);
@@ -27,4 +27,3 @@
         margin-top: 8px;
     }
 }
-    
