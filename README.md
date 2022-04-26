@@ -17,7 +17,7 @@ The following main tools were used in the development process:
 
 ## Link
 
-https://ruletiq.github.io/russian-travel/
+https://ruletiq.github.io/mesto/
 
 ## Author
 
@@ -44,7 +44,7 @@ Evgeniy Agalarov
 
 ## Ссылка
 
-https://ruletiq.github.io/russian-travel/
+https://ruletiq.github.io/mesto/
 
 ## Автор
 
