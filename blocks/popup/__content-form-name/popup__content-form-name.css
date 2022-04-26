@@ -1,0 +1,21 @@
+.popup__content-form-name {
+    width: 358px;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-color: rgb(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    outline: none; 
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .popup__content-form-name {
+        width: 238px;
+    }
+}
+
+.popup__content-form-name:last-of-type {
+    margin: 0;
+}
+
+

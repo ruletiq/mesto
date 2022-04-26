@@ -1,0 +1,11 @@
+.header__image {
+    background-size: 142px 33px;
+}
+
+@media screen and (max-width: 540px) {
+    .header__image {
+        width: 104px;
+        height: 24px;
+        padding-left: 27px;
+    
+}

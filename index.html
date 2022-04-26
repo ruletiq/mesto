@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+</head>
+<body class="page">
+    <div class="wrapper">
+        <header class="header">
+            <img src="./images/header_logo.svg" alt="header logo" class="header__image">
+        </header>
+        <section class="profile">
+            <img src="./images/Avatar.png" alt="avatar" class="profile__image">
+            <div class="profile__info">
+                <div class="profile__info-name">
+                    <h1 class="profile__info-username">Жак-Ив Кусто</h1>
+                    <p class="profile__info-description">Исследователь океана</p>
+                </div>
+                <button class="profile__info-edit-button" type="button" aria-placeholder="Редактировать профиль"></button>
+            </div>
+            <button class="profile__info-add-button" type="button" aria-placeholder="Добавить"></button>
+        </section>
+        <section class="elements">
+            <div class="elements__element">
+                <img src="./images/karachayevsk.png" alt="karachayevsk" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Карачаевск</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+            <div class="elements__element">
+                <img src="./images/elbrus.png" alt="elbrus" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Гора Эльбрус</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+            <div class="elements__element">
+                <img src="./images/dombay.png" alt="dombay" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Домбай</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+            <div class="elements__element">
+                <img src="./images/elbrus2.png" alt="elbrus" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Гора Эльбрус</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+            <div class="elements__element">
+                <img src="./images/dombay.png" alt="dombay" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Домбай</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+            <div class="elements__element">
+                <img src="./images/karachayevsk.png" alt="karachayevsk" class="elements__image">
+                <div class="elements__description">
+                    <p class="elements__text">Карачаево-Черкессия</p>
+                    <input class="elements__like" type="image" src="./images/like.svg" aria-placeholder="Мне нравится">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="footer__text">© 2020 Mesto Russia</p>
+        </footer>
+    </div>
+    <div class="popup">
+        <div class="popup__content">
+            <button class="popup__content-button" type="button" aria-placeholder="Закрыть"></button>
+            <div class="popup__content-forms">
+                <h2 class="popup__content-form-header">Редактировать профиль</h2>
+                <input class="popup__content-form-name" type="text" name="name" id="name">
+                <input class="popup__content-form-description" type="text" name="description" id="description">
+                <input class="popup__content-form-button" type="submit">Сохранить</input>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>

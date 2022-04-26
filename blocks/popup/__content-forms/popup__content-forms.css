@@ -1,0 +1,13 @@
+.popup__content-forms {
+    padding: 34px 36px 37px;
+    background-color: #FFFFFF;
+    width: 358px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .popup__content-forms {
+        width: 238px;
+        padding: 25px 22px;
+    }
+}
