@@ -4,7 +4,7 @@
     border-bottom: 1px solid #000;
     border-color: rgb(0, 0, 0, 0.2);
     margin-bottom: 30px;
-    outline: none; 
+    outline: none;
     padding: 0;
 }
 
@@ -17,5 +17,3 @@
 .popup__content-form-description:last-of-type {
     margin: 0;
 }
-
-

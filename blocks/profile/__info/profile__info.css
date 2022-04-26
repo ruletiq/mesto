@@ -2,16 +2,16 @@
     display: flex;
     gap: 24px;
     padding: 22px 0px 25px 30px;
-    
+
 }
 
 @media screen and (max-width: 540px) {
     .profile__info {
         justify-self: center;
-        padding: 26px 30px 25px ;
+        padding: 26px 30px 25px;
         gap: 13px;
     }
-    
+
 }
 
 @media screen and (max-width: 320px) {
@@ -19,5 +19,5 @@
         padding: 26px 36px 25px 66px;
         gap: 11px;
     }
-    
+
 }
